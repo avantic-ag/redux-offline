@@ -11,7 +11,8 @@ const decaySchedule = [
   1000 * 60 * 5, // After 5 minutes
   1000 * 60 * 10, // After 10 minutes
   1000 * 60 * 30, // After 30 minutes
-  1000 * 60 * 60 // After 1 hour
+  1000 * 60 * 60, // After 1 hour
+  1000 * 60 * 60 * 4 // After 4 hours
 ];
 
 export default (action: OfflineAction, retries: number): ?number =>
